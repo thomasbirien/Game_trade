@@ -9,6 +9,5 @@ class CreateGames < ActiveRecord::Migration[5.0]
 
       t.timestamps
     end
-    add_foreign_key :games, :users, column: :owner_id
   end
 end
