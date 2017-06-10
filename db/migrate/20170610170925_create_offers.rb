@@ -3,7 +3,6 @@ class CreateOffers < ActiveRecord::Migration[5.0]
     create_table :offers do |t|
       t.text :comment
       t.references :game, foreign_key: true
-      t.references :user, foreign_key: true
 
       t.timestamps
     end
