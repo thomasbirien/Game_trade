@@ -28,7 +28,7 @@ puts "creating games"
   counter += 1
   Game.create!(
     game_name: ["Final Fantasy 7", "Tekken 3", "crash bandicoot", "Dishonored", "limbo"][counter - 1],
-    platforms: ["PS1", "PS1", "PS4", "xbox 360", "xbox 360"][counter - 1],
+    plateforme: ["PS1", "PS1", "PS4", "xbox 360", "xbox 360"][counter - 1],
     release_date: ["31/01/1997", "12/09/1998", "30/06/2017", "09/10/2012", "21/07/2010"][counter - 1],
     owner_id: User.all.sample.id
     )
