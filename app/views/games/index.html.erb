@@ -1,2 +1,8 @@
-<h1>Games#index</h1>
-<p>Find me in app/views/games/index.html.erb</p>
+<h1>Game Trade</h1>
+<h3>troc your old games !</h3>
+
+<% @games.each do |game| %>
+  <p><%= game.game_name %></p>
+  <p><%= game.plateforme %></p>
+  <p><%= game.release_date %></p>
+<% end %>
