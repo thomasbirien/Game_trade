@@ -10,7 +10,7 @@ puts "creating user"
   User.create!(
     first_name: ["Lucas", "Paul"][counter - 1],
     last_name: ["Petit", "Geraud"][counter - 1],
-    phone_number: ["06 12 30 22 34", "07 08 09 10 34"][counter - 1],
+    phone: ["06 12 30 22 34", "07 08 09 10 34"][counter - 1],
     civility: ["M.", "M."][counter - 1],
     address: ["23 av. des ecoles", "45 rue du four"][counter - 1],
     post_code: ["69006", "75018"][counter - 1],
