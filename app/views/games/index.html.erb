@@ -5,4 +5,5 @@
   <p><%= game.game_name %></p>
   <p><%= game.plateforme %></p>
   <p><%= game.release_date %></p>
+  <%= link_to "show more", game_path(game), class: "btn btn-default"  %>
 <% end %>
