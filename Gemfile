@@ -20,6 +20,7 @@ gem 'devise'
 gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'bootstrap3-rails', '~> 3.2'
+gem 'bootstrap-sass', '~> 3.3.6'
 
 
 group :development, :test do
