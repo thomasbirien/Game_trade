@@ -19,6 +19,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'font-awesome-sass'
 gem 'simple_form'
+gem 'bootstrap3-rails', '~> 3.2'
 
 
 group :development, :test do
