@@ -3,9 +3,10 @@ class CreateGames < ActiveRecord::Migration[5.0]
     create_table :games do |t|
       t.string :game_name
       t.string :plateforme
-      t.string :release_date
       t.string :picture
       t.integer :owner_id
+      t.string :condition
+      t.text :comment
 
       t.timestamps
     end
