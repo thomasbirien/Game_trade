@@ -29,9 +29,10 @@ ActiveRecord::Schema.define(version: 20170611163347) do
   create_table "offers", force: :cascade do |t|
     t.text     "comment"
     t.integer  "game_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
     t.integer  "user_id"
+    t.integer  "game_exchange_id"
     t.index ["game_id"], name: "index_offers_on_game_id", using: :btree
   end
 
