@@ -3,13 +3,11 @@
 one:
   game_name: MyString
   plateforme: MyString
-  release_date: MyString
   picture: MyString
   owner_id: 1
 
 two:
   game_name: MyString
   plateforme: MyString
-  release_date: MyString
   picture: MyString
   owner_id: 1
